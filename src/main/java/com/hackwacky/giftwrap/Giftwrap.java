@@ -11,4 +11,3 @@ public class Giftwrap implements ModInitializer {
     public void onInitialize() {
     }
 }
-gg

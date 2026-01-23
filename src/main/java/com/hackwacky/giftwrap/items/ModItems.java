@@ -41,6 +41,11 @@ public class ModItems {
     public static final Item WRAPPED_IRON_HOE = registerItem("wrapped_iron_hoe", new Item(new Item.Settings()));
     public static final Item WRAPPED_STONE_HOE = registerItem("wrapped_stone_hoe", new Item(new Item.Settings()));
     public static final Item WRAPPED_WOODEN_HOE = registerItem("wrapped_wooden_hoe", new Item(new Item.Settings()));
+    public static final Item WRAPPED_NETHERITE_SWORD = registerItem("wrapped_netherite_sword", new Item(new Item.Settings()));
+    public static final Item WRAPPED_NETHERITE_AXE = registerItem("wrapped_netherite_axe", new Item(new Item.Settings()));
+    public static final Item WRAPPED_NETHERITE_PICKAXE = registerItem("wrapped_netherite_pickaxe", new Item(new Item.Settings()));
+    public static final Item WRAPPED_NETHERITE_SHOVEL = registerItem("wrapped_netherite_shovel", new Item(new Item.Settings()));
+    public static final Item WRAPPED_NETHERITE_HOE = registerItem("wrapped_netherite_hoe", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
@@ -81,6 +86,11 @@ public class ModItems {
             entries.add(WRAPPED_IRON_HOE);
             entries.add(WRAPPED_STONE_HOE);
             entries.add(WRAPPED_WOODEN_HOE);
+            entries.add(WRAPPED_NETHERITE_SWORD);
+            entries.add(WRAPPED_NETHERITE_AXE);
+            entries.add(WRAPPED_NETHERITE_PICKAXE);
+            entries.add(WRAPPED_NETHERITE_SHOVEL);
+            entries.add(WRAPPED_NETHERITE_HOE);
         });
     }
 }

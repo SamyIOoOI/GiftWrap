@@ -57,6 +57,7 @@ public class ModItems {
     public static void registerModItems() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
             entries.add(GIFT_BUNDLE);
+            entries.add(GIFT_WRAP);
             entries.add(GIFT_CHEST);
             entries.add(GIFT_BLOCK);
             entries.add(SMALL_GIFT);

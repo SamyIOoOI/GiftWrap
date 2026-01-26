@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "giftwrap",
+  "version": "${version}",
+  "name": "GiftWrap",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/giftwrap/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.hackwacky.giftwrap.client.GiftwrapDataGenerator"
+    ],
+    "client": [
+      "com.hackwacky.giftwrap.client.GiftwrapClient"
+    ],
+    "main": [
+      "com.hackwacky.giftwrap.Giftwrap"
+    ]
+  },
+  "mixins": [
+    "giftwrap.mixins.json",
+    {
+      "config": "giftwrap.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

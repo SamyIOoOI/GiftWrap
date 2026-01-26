@@ -1,0 +1,13 @@
+build/
+.gradle/
+run/
+bin/
+.settings/
+.classpath
+.project
+*.json
+!src/main/resources/*.json
+!src/main/resources/**/*.json
+.idea/
+*.iml
+out/

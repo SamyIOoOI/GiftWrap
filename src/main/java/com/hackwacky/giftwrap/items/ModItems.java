@@ -11,7 +11,6 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item GIFT_BUNDLE = registerItem("gift_bundle", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Giftwrap.MOD_ID, "gift_bundle")))));
-    public static final Item GIFT_BLOCK = registerItem("gift_block", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Giftwrap.MOD_ID, "gift_block")))));
     public static final Item GIFT_WRAP = registerItem("gift_wrap", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Giftwrap.MOD_ID, "gift_wrap")))));
     public static final Item SMALL_GIFT = registerItem("small_gift", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Giftwrap.MOD_ID, "small_gift")))));
     public static final Item MEDIUM_GIFT = registerItem("medium_gift", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Giftwrap.MOD_ID, "medium_gift")))));
@@ -57,7 +56,6 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
             entries.add(GIFT_BUNDLE);
             entries.add(GIFT_WRAP);
-            entries.add(GIFT_BLOCK);
             entries.add(SMALL_GIFT);
             entries.add(MEDIUM_GIFT);
             entries.add(LARGE_GIFT);

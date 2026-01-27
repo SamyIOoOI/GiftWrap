@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "tools",
   "ingredients": [
-    {"item": "minecraft:netherite_sword"},
-    {"item": "giftwrap:gift_wrap"}
+    "minecraft:netherite_sword",
+    "giftwrap:gift_wrap"
   ],
   "result": {
     "count": 1,

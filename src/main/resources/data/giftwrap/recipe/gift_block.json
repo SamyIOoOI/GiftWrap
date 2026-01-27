@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "tools",
   "key": {
-    "#": {
-      "item": "giftwrap:gift_wrap"
-    }
+    "#": "giftwrap:gift_wrap"
   },
   "pattern": [
     "###",

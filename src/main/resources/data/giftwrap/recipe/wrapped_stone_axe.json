@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "tools",
   "ingredients": [
-    {"item": "minecraft:stone_axe"},
-    {"item": "giftwrap:gift_wrap"}
+    "minecraft:stone_axe",
+    "giftwrap:gift_wrap"
   ],
   "result": {
     "count": 1,

@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "tools",
   "ingredients": [
-    {
-      "item": "giftwrap:gift_block"
-    }
+    "giftwrap:gift_block"
   ],
   "result": {
     "count": 9,

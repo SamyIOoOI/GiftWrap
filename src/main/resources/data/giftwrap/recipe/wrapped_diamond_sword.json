@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "tools",
   "ingredients": [
-    {"item": "minecraft:diamond_sword"},
-    {"item": "giftwrap:gift_wrap"}
+    "minecraft:diamond_sword",
+    "giftwrap:gift_wrap"
   ],
   "result": {
     "count": 1,

@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "tools",
   "ingredients": [
-    {"item": "minecraft:red_tulip"},
-    {"item": "minecraft:pink_tulip"}
+    "minecraft:red_tulip",
+    "minecraft:pink_tulip"
   ],
   "result": {
     "count": 1,

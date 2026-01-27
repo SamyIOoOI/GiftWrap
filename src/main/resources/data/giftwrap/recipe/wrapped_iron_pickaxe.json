@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "tools",
   "ingredients": [
-    {"item": "minecraft:iron_pickaxe"},
-    {"item": "giftwrap:gift_wrap"}
+    "minecraft:iron_pickaxe",
+    "giftwrap:gift_wrap"
   ],
   "result": {
     "count": 1,

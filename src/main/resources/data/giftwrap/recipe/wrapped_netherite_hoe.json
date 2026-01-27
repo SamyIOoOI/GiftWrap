@@ -1,1 +1,12 @@
-=
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "tools",
+  "ingredients": [
+    {"item": "minecraft:netherite_hoe"},
+    {"item": "giftwrap:gift_wrap"}
+  ],
+  "result": {
+    "count": 1,
+    "id": "giftwrap:wrapped_netherite_hoe"
+  }
+}

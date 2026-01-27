@@ -1,12 +1,18 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "tools",
-  "ingredients": [
-    {
-
+  "key": {
+    "#": {
+      "item": "giftwrap:gift_wrap"
     }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
   ],
   "result": {
-
+    "count": 1,
+    "id": "giftwrap:gift_block"
   }
 }

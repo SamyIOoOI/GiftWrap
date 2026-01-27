@@ -2,11 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "tools",
   "ingredients": [
-    {"item": "minecraft:red_tulip"},
-    {"item": "minecraft:pink_tulip"}
+    {
+      "item": "giftwrap:gift_block"
+    }
   ],
   "result": {
-    "count": 1,
+    "count": 9,
     "id": "giftwrap:gift_wrap"
   }
 }

@@ -10,5 +10,5 @@ Ever wished coal ores became diamond blocks? maybe you wished for more amthyst..
 
   # What are you waiting for? Wrap your golden shovels and prepare your wands already!
 
-  *pssst you need fabric 1.21.11*
+  *pssst you need fabric 1.21.11 & fabric api*
   *oh and the mod won't mind any other fellow mods being around it :3*

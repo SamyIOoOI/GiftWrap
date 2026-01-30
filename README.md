@@ -6,7 +6,7 @@ Ever wished coal ores became diamond blocks? maybe you wished for more amthyst..
 - Adds a new item called Gift Wrap made out of red tulips and pink tulips to wrap your favourite gifts!
 - Adds a variety of wrapped tool versions, all with their names and textures hidden and replaced by pure mystery, making the gift much better!
 - Adds a magic wand where all your festive dreams come true (in minecraft of course) as coal turns into diamond, nether gold ore turns into gold and most importantly (in my opinion) oak logs to amathyst blocks!
-
+- V1.1 : Added a new block that generates in newly loaded chunks, use your wand on it, maybe it will do something? *netherite maybe?*
 
   # What are you waiting for? Wrap your golden shovels and prepare your wands already!
 

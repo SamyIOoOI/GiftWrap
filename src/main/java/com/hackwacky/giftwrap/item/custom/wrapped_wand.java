@@ -1,5 +1,6 @@
 package com.hackwacky.giftwrap.item.custom;
 
+import com.hackwacky.giftwrap.block.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.EquipmentSlot;
@@ -19,7 +20,8 @@ public class wrapped_wand extends Item {
             Map.of(
                     Blocks.OAK_LOG, Blocks.AMETHYST_BLOCK,
                     Blocks.COAL_ORE, Blocks.DIAMOND_BLOCK,
-                    Blocks.NETHER_GOLD_ORE, Blocks.GOLD_BLOCK
+                    Blocks.NETHER_GOLD_ORE, Blocks.GOLD_BLOCK,
+                    ModBlocks.SCRAP_GIFT, Blocks.NETHERITE_BLOCK
 
             );
     public wrapped_wand(Settings settings) {

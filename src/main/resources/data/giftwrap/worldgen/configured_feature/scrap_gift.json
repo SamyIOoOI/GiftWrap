@@ -1,0 +1,7 @@
+{
+  "type": "giftwrap:scrap_gift",
+  "config": {
+    "number": 10,
+    "blockID": "giftwrap:scrap_gift"
+  }
+}

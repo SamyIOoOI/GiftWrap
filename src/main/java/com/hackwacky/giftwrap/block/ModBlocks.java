@@ -15,7 +15,8 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block GIFT_BLOCK = registerBlock("gift_block", AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.SNOW));
+    public static final Block GIFT_BLOCK = registerBlock("gift_block", AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.SNOW));
+    public static final Block SCRAP_GIFT = registerBlock("scrap_gift", AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.SNOW));
 
     private static Block registerBlock(String name, AbstractBlock.Settings blockSettings){
         RegistryKey<Block> key = RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Giftwrap.MOD_ID, name));
@@ -33,6 +34,7 @@ public class ModBlocks {
         Giftwrap.LOGGER.info("Registering Mod Blocks for" + Giftwrap.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(ModBlocks.GIFT_BLOCK);
+            fabricItemGroupEntries.add(ModBlocks.SCRAP_GIFT);
         });
     }
 }
